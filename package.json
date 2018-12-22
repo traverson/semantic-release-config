@@ -2,8 +2,7 @@
   "name": "@traverson/semantic-release-config",
   "description": "Shareable semantic-release config for the traversion organization",
   "version": "0.0.0-semantically-released",
-  "main": "lib/index.cjs.js",
-  "module": "lib/index.es.js",
+  "main": "./shareable-config.json",
   "license": "MIT",
   "repository": "traverson/semantic-release-config",
   "bugs": "https://github.com/traverson/semantic-release-config/issues",
@@ -37,6 +36,7 @@
     "@travi/babel-preset": "3.0.0",
     "@travi/eslint-config-travi": "1.7.0",
     "ban-sensitive-files": "1.9.2",
+    "commitlint-config-traverson": "1.0.1",
     "cz-conventional-changelog": "2.1.0",
     "husky": "1.2.1",
     "npm-run-all": "4.1.5",
@@ -48,7 +48,7 @@
     "travis-lint": "1.0.0"
   },
   "dependencies": {
-    "D": "1.0.0",
-    "commitlint-config-traverson": "1.0.1"
+    "@semantic-release/changelog": "3.0.1",
+    "@semantic-release/git": "7.0.6"
   }
 }
