@@ -1,5 +1,5 @@
 repository:
-  description: Shareable semantic-release config for the traversion organization
+  description: Shareable semantic-release config for the traverson organization
   homepage: 'https://npm.im/@traverson/semantic-release-config'
   has_wiki: false
   has_projects: false

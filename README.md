@@ -1,6 +1,7 @@
 # semantic-release-config
 
-Shareable semantic-release config for the traversion organization
+[Shareable semantic-release config](https://semantic-release.gitbook.io/semantic-release/usage/shareable-configurations)
+for the [traverson organization](https://github.com/traverson)
 
 <!-- status badges -->
 [![Build Status][ci-badge]][ci-link]
@@ -15,6 +16,16 @@ Shareable semantic-release config for the traversion organization
 
 ```sh
 $ npm install @traverson/semantic-release-config
+```
+
+### Add to project config file
+
+In a `.releaserc.json` file in the root pf the project:
+
+```json
+{
+  "extends": "@traverson/semantic-release-confg"
+}
 ```
 
 ## Contributing
