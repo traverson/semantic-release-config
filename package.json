@@ -1,0 +1,54 @@
+{
+  "name": "@traverson/semantic-release-config",
+  "description": "Shareable semantic-release config for the traversion organization",
+  "version": "0.0.0-semantically-released",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.es.js",
+  "license": "MIT",
+  "repository": "traverson/semantic-release-config",
+  "bugs": "https://github.com/traverson/semantic-release-config/issues",
+  "homepage": "https://npm.im/@traverson/semantic-release-config",
+  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
+  "scripts": {
+    "clean": "rimraf lib/",
+    "lint:md": "remark . --frail",
+    "lint:js": "eslint . --cache",
+    "lint:travis": "travis-lint .travis.yml",
+    "lint:sensitive": "ban",
+    "test": "npm-run-all --print-label --parallel lint:*",
+    "build": "run-s clean build:*",
+    "build:js": "rollup -c",
+    "watch": "run-s 'build:js -- --watch'",
+    "prepack": "run-s build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib/"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "@babel/register": "7.0.0",
+    "@travi/babel-preset": "3.0.0",
+    "@travi/eslint-config-travi": "1.7.0",
+    "ban-sensitive-files": "1.9.2",
+    "cz-conventional-changelog": "2.1.0",
+    "husky": "1.2.1",
+    "npm-run-all": "4.1.5",
+    "remark-cli": "6.0.1",
+    "remark-preset-lint-travi": "1.1.0",
+    "rimraf": "2.6.2",
+    "rollup": "0.68.1",
+    "rollup-plugin-auto-external": "2.0.0",
+    "travis-lint": "1.0.0"
+  },
+  "dependencies": {
+    "D": "1.0.0",
+    "commitlint-config-traverson": "1.0.1"
+  }
+}
