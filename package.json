@@ -11,14 +11,9 @@
   "scripts": {
     "clean": "rimraf lib/",
     "lint:md": "remark . --frail",
-    "lint:js": "eslint . --cache",
     "lint:travis": "travis-lint .travis.yml",
     "lint:sensitive": "ban",
-    "test": "npm-run-all --print-label --parallel lint:*",
-    "build": "run-s clean build:*",
-    "build:js": "rollup -c",
-    "watch": "run-s 'build:js -- --watch'",
-    "prepack": "run-s build"
+    "test": "npm-run-all --print-label --parallel lint:*"
   },
   "publishConfig": {
     "access": "public"
@@ -32,9 +27,6 @@
     }
   },
   "devDependencies": {
-    "@babel/register": "7.0.0",
-    "@travi/babel-preset": "3.0.0",
-    "@travi/eslint-config-travi": "1.7.0",
     "ban-sensitive-files": "1.9.2",
     "commitlint-config-traverson": "1.0.1",
     "cz-conventional-changelog": "2.1.0",
@@ -43,8 +35,6 @@
     "remark-cli": "6.0.1",
     "remark-preset-lint-travi": "1.1.0",
     "rimraf": "2.6.2",
-    "rollup": "0.68.1",
-    "rollup-plugin-auto-external": "2.0.0",
     "semantic-release": "15.13.1",
     "travis-lint": "1.0.0"
   },
