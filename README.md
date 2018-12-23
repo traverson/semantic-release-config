@@ -35,6 +35,7 @@ In a `.releaserc.json` file in the root pf the project:
 [![Commitizen friendly][commitizen-badge]][commitizen-link]
 [![semantic-release][semantic-release-badge]][semantic-release-link]
 [![PRs Welcome][PRs-badge]][PRs-link]
+[![Greenkeeper badge](https://badges.greenkeeper.io/traverson/semantic-release-config.svg)](https://greenkeeper.io/)
 
 ### Dependencies
 
