@@ -19,7 +19,7 @@
     "access": "public"
   },
   "files": [
-    "sharable-config.json"
+    "shareable-config.json"
   ],
   "config": {
     "commitizen": {
