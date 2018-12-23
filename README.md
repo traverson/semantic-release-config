@@ -1,5 +1,7 @@
 # semantic-release-config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/traverson/semantic-release-config.svg)](https://greenkeeper.io/)
+
 [Shareable semantic-release config](https://semantic-release.gitbook.io/semantic-release/usage/shareable-configurations)
 for the [traverson organization](https://github.com/traverson)
 
