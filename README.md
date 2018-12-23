@@ -1,7 +1,5 @@
 # semantic-release-config
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/traverson/semantic-release-config.svg)](https://greenkeeper.io/)
-
 [Shareable semantic-release config](https://semantic-release.gitbook.io/semantic-release/usage/shareable-configurations)
 for the [traverson organization](https://github.com/traverson)
 
@@ -37,6 +35,7 @@ In a `.releaserc.json` file in the root pf the project:
 [![Commitizen friendly][commitizen-badge]][commitizen-link]
 [![semantic-release][semantic-release-badge]][semantic-release-link]
 [![PRs Welcome][PRs-badge]][PRs-link]
+[![Greenkeeper badge](https://badges.greenkeeper.io/traverson/semantic-release-config.svg)](https://greenkeeper.io/)
 
 ### Dependencies
 
