@@ -33,3 +33,6 @@ branches:
       required_status_checks: null
       restrictions: null
       enforce_admins: true
+collaborators:
+- username: traverson-bot
+  permission: push
