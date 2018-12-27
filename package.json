@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "@semantic-release/changelog": "3.0.1",
-    "@semantic-release/git": "7.0.6"
+    "@semantic-release/git": "7.0.7"
   },
   "peerDependencies": {
     "semantic-release": ">=15"
