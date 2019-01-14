@@ -39,7 +39,7 @@
     "travis-lint": "1.0.0"
   },
   "dependencies": {
-    "@semantic-release/changelog": "3.0.1",
+    "@semantic-release/changelog": "3.0.2",
     "@semantic-release/git": "7.0.7"
   },
   "peerDependencies": {
