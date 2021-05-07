@@ -5,7 +5,7 @@ for the [traverson organization](https://github.com/traverson)
 
 <!--status-badges start -->
 
-[![Build Status][ci-badge]][ci-link]
+[![Node CI Workflow Status][github-actions-ci-badge]][github-actions-ci-link]
 
 <!--status-badges end -->
 
@@ -67,10 +67,6 @@ $ npm test
 
 [license-badge]: https://img.shields.io/github/license/traverson/semantic-release-config.svg
 
-[ci-link]: https://travis-ci.com/traverson/semantic-release-config
-
-[ci-badge]: https://img.shields.io/travis/com/traverson/semantic-release-config/master.svg
-
 [commit-convention-link]: https://conventionalcommits.org
 
 [commit-convention-badge]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg
@@ -86,3 +82,7 @@ $ npm test
 [PRs-link]: http://makeapullrequest.com
 
 [PRs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
+
+[github-actions-ci-link]: https://github.com/traverson/semantic-release-config/actions?query=workflow%3A%22Node.js+CI%22+branch%3Amaster
+
+[github-actions-ci-badge]: https://github.com/traverson/semantic-release-config/workflows/Node.js%20CI/badge.svg
