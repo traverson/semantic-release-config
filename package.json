@@ -36,7 +36,7 @@
     "remark-cli": "11.0.0",
     "remark-preset-lint-travi": "5.0.0",
     "rimraf": "5.0.0",
-    "semantic-release": "21.0.1"
+    "semantic-release": "21.0.2"
   },
   "dependencies": {
     "@semantic-release/changelog": "6.0.3",
