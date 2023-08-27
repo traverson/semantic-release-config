@@ -14,7 +14,8 @@
     "lint:sensitive": "ban",
     "lint:peer": "npm ls >/dev/null",
     "test": "npm-run-all --print-label --parallel lint:*",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint:publish": "publint --strict"
   },
   "publishConfig": {
     "access": "public",
@@ -34,6 +35,7 @@
     "cz-conventional-changelog": "3.3.0",
     "husky": "8.0.3",
     "npm-run-all2": "5.0.0",
+    "publint": "0.2.2",
     "remark-cli": "11.0.0",
     "remark-preset-lint-travi": "6.0.1",
     "rimraf": "5.0.1",
