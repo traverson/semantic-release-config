@@ -1,13 +1,13 @@
 {
   "name": "@traverson/semantic-release-config",
   "description": "Shareable semantic-release config for the traversion organization",
-  "version": "0.0.0-semantically-released",
-  "main": "./shareable-config.json",
   "license": "MIT",
+  "version": "0.0.0-semantically-released",
+  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "repository": "traverson/semantic-release-config",
   "bugs": "https://github.com/traverson/semantic-release-config/issues",
   "homepage": "https://npm.im/@traverson/semantic-release-config",
-  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
+  "main": "./shareable-config.json",
   "scripts": {
     "clean": "rimraf lib/",
     "lint:md": "remark . --frail",
@@ -17,17 +17,21 @@
     "prepare": "husky install",
     "lint:publish": "publint --strict"
   },
+  "files": [
+    "shareable-config.json"
+  ],
   "publishConfig": {
     "access": "public",
     "provenance": true
   },
-  "files": [
-    "shareable-config.json"
-  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/git": "10.0.1"
   },
   "devDependencies": {
     "ban-sensitive-files": "1.10.0",
@@ -40,10 +44,6 @@
     "remark-preset-lint-travi": "6.0.1",
     "rimraf": "5.0.1",
     "semantic-release": "21.1.1"
-  },
-  "dependencies": {
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/git": "10.0.1"
   },
   "peerDependencies": {
     "semantic-release": ">=16"
