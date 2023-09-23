@@ -86,7 +86,7 @@ $ npm test
 
 [github-actions-ci-link]: https://github.com/traverson/semantic-release-config/actions?query=workflow%3A%22Node.js+CI%22+branch%3Amaster
 
-[github-actions-ci-badge]: https://github.com/traverson/semantic-release-config/workflows/Node.js%20CI/badge.svg
+[github-actions-ci-badge]: https://img.shields.io/github/actions/workflow/status/traverson/semantic-release-config/node-ci.yml.svg?branch=master&logo=github
 
 [renovate-link]: https://renovatebot.com
 
