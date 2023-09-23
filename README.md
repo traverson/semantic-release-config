@@ -62,7 +62,7 @@ $ npm test
 
 [npm-link]: https://www.npmjs.com/package/@traverson/semantic-release-config
 
-[npm-badge]: https://img.shields.io/npm/v/@traverson/semantic-release-config.svg
+[npm-badge]: https://img.shields.io/npm/v/@traverson/semantic-release-config?logo=npm
 
 [license-link]: LICENSE
 
