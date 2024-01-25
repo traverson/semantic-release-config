@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "ban-sensitive-files": "1.10.1",
-    "commitlint-config-traverson": "1.0.65",
+    "commitlint-config-traverson": "1.0.66",
     "cz-conventional-changelog": "3.3.0",
     "husky": "9.0.5",
     "npm-run-all2": "6.1.1",
